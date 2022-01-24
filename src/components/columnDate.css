@@ -1,0 +1,44 @@
+.container {
+  width: 179px;
+  height: 720px;
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  margin-top: 160px;
+}
+
+.date-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  color: #6a7988;
+}
+
+.date-column {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #f3f5f8;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.date-column-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #728096;
+}
+
+.active {
+  color: #5a57cb;
+  font-weight: bold;
+}

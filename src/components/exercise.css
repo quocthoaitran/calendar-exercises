@@ -1,0 +1,31 @@
+.exercise-container {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: grid;
+  padding: 3px;
+  margin: 5px 0;
+}
+
+.exercise-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #5a57cb;
+}
+
+.exercise-button {
+  background: #a0a8b1;
+  margin-left: auto;
+  color: white;
+  width: 12px;
+  height: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+}
